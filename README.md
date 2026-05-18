@@ -76,6 +76,7 @@ struct entry {              // stride 0x38, labels are inference from usage
     uint64_t attrs;         // +0x18   KB strips bit 14 here
     uint32_t f20;           // +0x20   must == 1
 };
+```
 
 ## finding 2: DxeCore NX policy mask
 
